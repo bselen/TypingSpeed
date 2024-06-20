@@ -5,7 +5,7 @@ public class TypingAccuracy
     private double accuracy;
 
     //Default constructor
-    public TypingAccuracy(String referenceSentence) 
+    public TypingAccuracy() 
     {
         this.referenceSentence = referenceSentence;
         this.correctChars = 0;
@@ -21,6 +21,16 @@ public class TypingAccuracy
     public String getTypedSentence() 
     {
         return typedSentence;
+    }
+
+    public void setRefenceSentence(String referenceSentence) 
+    {
+        this.referenceSentence = referenceSentence;
+    }
+
+    public String getRefenceSentence() 
+    {
+        return referenceSentence;
     }
 
     public double getAccuracy() 

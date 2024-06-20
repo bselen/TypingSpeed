@@ -10,7 +10,12 @@ package com.mycompany.typingspeed;
  */
 public class TypingSpeed {
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+    public static void main(String[] args) 
+    {
+            // Uncomment to run UI in Netbeans
+            // UI UIFrame = new UI();
+            // UIFrame.setVisible(true);
+            // UIFrame.pack();
+            // UIFrame.setLocationRelativeTo(null);   
     }
 }
