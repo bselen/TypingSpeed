@@ -53,4 +53,3 @@ public class TypingAccuracy
         accuracy = ((double) correctChars / referenceSentence.length()) * 100;
     }
 }
-

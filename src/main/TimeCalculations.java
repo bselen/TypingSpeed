@@ -1,9 +1,5 @@
 import java.time.LocalTime;
 
-/**
- *
- * @author Erik
- */
 public class TimeCalculations 
 {
    private double start, end, seconds, time;
